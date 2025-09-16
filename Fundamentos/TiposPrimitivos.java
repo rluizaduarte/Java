@@ -3,8 +3,10 @@ public class TiposPrimitivos {
 		byte idade = 20;
 		short ano = 2025;
 		int cep = 53405190;
-		long contato = 985640276; 
+		long contato = 985640276L;
+		// o L no final indica que a variável é do tipo long 
 		float altura = 1.72f;
+		// o f no final indica que a variável é do tipo float
 		double salario = 10000.50;
 		boolean estudante = true;
 		char inicial = 'R';
